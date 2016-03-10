@@ -45,7 +45,7 @@
 	sudo docker run -i -t ubuntu /bin/bash
 
 
-#####ubntu安装教程（13.04）
+#####ubuntu安装教程（13.04）
 
 >首先要确认是否安装了AUFS,如果没有安装运行下边的命令
 
@@ -62,7 +62,7 @@
 
 >现在你可以运行docker的客户端了，但是如果你运行命令的话，一定要用root权限，或者用sudo执行，因为docker是被当做一个软件使用，而且是受保护的，你的命令会被转发到docker的进程中来运行，就像你vim一个受保护的文档，所以需要root权限，原文太简单怕各位不理解(by default all commands will be forwarded to the docker daemon via a protected Unix socket, so you must run as the root or via the sudo command.)
 
->hello word最基本的例子就是可以共用Docker，先要现在最基本的ubunt的镜像（就好像你写程序的基类）
+>hello world最基本的例子就是可以共用Docker，先要现在最基本的ubunt的镜像（就好像你写程序的基类）
 
 	sudo docker pull ubuntu
 
@@ -76,7 +76,7 @@
 -	“docker run” 在一个新的容器中运行命令
 -	“ubuntu”     是我们想要运行命令的镜像
 -	“/bin/echo”  我们在容器用运行的shell命令行
--	“hello word” 我们要输出的
+-	“hello world” 我们要输出的
 
 
 #####Docker 和 UFW
